@@ -1,0 +1,108 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+<!-- <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap
+.min.css" /> -->
+
+<link rel="stylesheet" href="login.css">
+<style type="text/css">
+  body {
+    background-color: #DADADA;
+  }
+  body > .grid {
+    height: 100%;
+  }
+  .image {
+    margin-top: -100px;
+  }
+  .column {
+    max-width: 450px;
+  }
+</style>
+<meta charset="utf-8" />
+<meta name="description" content="A frontend dashboard for Inventory Management" />
+<meta name="author" content="Deol Satish" />
+<meta name="viewport" content="width=device-width", initial-scale=1.0>
+<title>Inventory Management Application</title>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar"></div>
+    </div>
+    <div ng-app="devapp">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="ui ui middle aligned center aligned container">
+      <div class="ui stacked secondary segment">
+        <div class="ui container"> 
+          <h2 class="ui image header">
+            <!-- <img src="./Login Example - Semantic_files/logo.png" class="image"> -->
+            <i class="list alternate icon"></i>
+            <div class="content">
+              Inventory Dahsboard Overview
+            </div>
+          </h2>
+          <table id="itemslist" class=" ui teal large table">
+            <thead>
+            <tr>
+            <th>Inventory Item</th>
+            <th>Current Stock</th>
+            <!-- <th><pre>                 Sensors</pre></th> -->
+            <th>Reorder Point</th>
+            <th>Status</th>
+            <th>Show Chart</th>
+            </tr>
+            </thead>
+            <tbody id="body"></tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <!-- <div class="wrapper">
+      <div class="container clearfix">
+          <div id="inside-box"></div>
+      </div>
+    </div>  
+
+    <div class="ui modal" style="margin-left: 25%;">
+      <div class="ui orange header">
+        <i class="list icon"></i>
+        <div class="content">
+          Notes List
+        </div>
+      </div>
+      <div class="ui content">
+        <table class="ui inverted yellow compact large table">
+          <tbody id="historyContent">
+          </tbody>
+        </table>
+        
+      </div>
+    </div> -->
+
+    <br>
+    <br>
+    <br>
+
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    </body>
+</html>
