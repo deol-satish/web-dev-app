@@ -9,7 +9,7 @@ Welcome to the project! This repository contains a frontend and two backend serv
 To run the project, follow these steps for each folder: `web`, `api`, and `supplier api`.
 
 1.  **Open a new terminal** for each service.
-2.  Navigate to the directory of the service you want to start (e.g., `cd web`).
+2.  Navigate to the directory of the service you want to start (e.g., `cd web` , start atleast 'web' and 'api').
 3.  Install the required dependencies by running the following command:
     ```bash
     npm install
